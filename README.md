@@ -1,3 +1,3 @@
 realization of functions: 
-sumOfOther 
+sumOfOther,  
 make
