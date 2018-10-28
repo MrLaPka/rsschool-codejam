@@ -1,7 +1,7 @@
 const assert = require('assert');
 const make = require('./make.js');
 
-describe('make', () => {
+describe('make', function() {
   const sum = function (a,b){return a+b;}
   const diff = function (a,b){return a-b;}
   it('Аргументы: 15,34, 21, 666,41; Сумма: 777', function() {
