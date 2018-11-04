@@ -2,7 +2,7 @@ const assert = require('assert');
 const recursion = require('./recursion.js');
 
 describe('recursion', function(){
-  it('Должен получится массив: [[100],[90,99]]', function() {
+  it('You should get an array: [[100],[90,99]]', function() {
     const tree = {
       value: 100,
       left: {
@@ -14,7 +14,7 @@ describe('recursion', function(){
     };
     assert.deepEqual(recursion(tree), [[100], [90, 99]]);
   });
-  it('Должен получится массив: [[11], [6, 17], [2, 8, 14, 20]]', function() {
+  it('You should get an array: [[11], [6, 17], [2, 8, 14, 20]]', function() {
     const tree = {
       value: 11,
       left: {
