@@ -15,7 +15,7 @@ module.exports = function recursion(tree) {
   }
 
   function concat(value, level) {
-    if (arrayFromTreee[level] instanceof Array) {
+    if (typeof arrayFromTreee[level] === Array) {
       arrayFromTreee[level].push(value);
     } else {
       arrayFromTreee[level] = [value];
